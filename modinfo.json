@@ -7,7 +7,7 @@
   "description": "Enable the unit creation toolbox when the create-unit cheat is enabled.",
   "display_name": "Sandbox Unit Toolbox",
   "enabled": true,
-  "forum": null,
+  "forum": "https://forums.uberent.com/threads/rel-sandbox-unit-toolbox.60799/",
   "id": "sandbox_unit_toolbox",
   "identifier": "com.wondible.pa.sandbox_unit_toolbox",
   "priority": 100,
