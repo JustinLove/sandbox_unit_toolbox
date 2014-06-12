@@ -1,0 +1,23 @@
+{
+  "author": "wondible",
+  "build": "67249-main",
+  "category": ["in-game", "ui"],
+  "context": "client",
+  "date": "2014/06/12",
+  "description": "Enable the unit creation toolbox when the create-unit cheat is enabled.",
+  "display_name": "Sandbox Unit Toolbox",
+  "enabled": true,
+  "forum": null,
+  "id": "sandbox_unit_toolbox",
+  "identifier": "com.wondible.pa.sandbox_unit_toolbox",
+  "priority": 100,
+  "requires": [],
+  "scenes": {
+    "live_game": [
+      "coui://ui/mods/sandbox_unit_toolbox/sandbox_unit_toolbox.js"
+    ]
+  },
+  "signature": "not yet implemented",
+  "version": "1.0.0"
+}
+
