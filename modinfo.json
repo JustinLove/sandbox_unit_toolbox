@@ -1,23 +1,20 @@
 {
   "author": "wondible",
-  "build": "67249-main",
-  "category": ["in-game", "ui"],
+  "build": "80462",
+  "category": [ "in-game", "ui", "sandbox" ],
   "context": "client",
-  "date": "2014/06/12",
-  "description": "Enable the unit creation toolbox when the create-unit cheat is enabled.",
+  "date": "2015/04/15",
+  "description": "Enable the unit creation toolbox when sandbox mode is enabled.",
   "display_name": "Sandbox Unit Toolbox",
-  "enabled": true,
   "forum": "https://forums.uberent.com/threads/rel-sandbox-unit-toolbox.60799/",
-  "id": "sandbox_unit_toolbox",
   "identifier": "com.wondible.pa.sandbox_unit_toolbox",
   "priority": 100,
-  "requires": [],
   "scenes": {
     "live_game": [
+      "coui://ui/mods/sandbox_unit_toolbox/server_sandbox_state.js",
       "coui://ui/mods/sandbox_unit_toolbox/sandbox_unit_toolbox.js"
     ]
   },
   "signature": "not yet implemented",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
-
