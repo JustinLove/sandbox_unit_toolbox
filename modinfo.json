@@ -1,9 +1,9 @@
 {
   "author": "wondible",
-  "build": "80462",
-  "category": [ "in-game", "ui", "sandbox" ],
+  "build": "86422",
+  "category": [ "ui", "sandbox" ],
   "context": "client",
-  "date": "2015/04/15",
+  "date": "2015/08/19",
   "description": "Enable the unit creation toolbox when sandbox mode is enabled.",
   "display_name": "Sandbox Unit Toolbox",
   "forum": "https://forums.uberent.com/threads/rel-sandbox-unit-toolbox.60799/",
@@ -16,5 +16,5 @@
     ]
   },
   "signature": "not yet implemented",
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
