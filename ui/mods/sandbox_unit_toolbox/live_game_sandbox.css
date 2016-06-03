@@ -1,0 +1,8 @@
+.div_sandbox_unit_cont, #sandbox_unit_toolbox_handle {
+  overflow-y: scroll;
+  max-height: 100%;
+}
+
+div.div_sandbox_main {
+  width: 390px;
+}

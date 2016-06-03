@@ -1,9 +1,9 @@
 {
   "author": "wondible",
-  "build": "86422",
-  "category": [ "ui", "sandbox" ],
+  "build": "94684",
+  "category": [ "sandbox", "titans" ],
   "context": "client",
-  "date": "2015/08/19",
+  "date": "2016/06/03",
   "description": "Enable the unit creation toolbox when sandbox mode is enabled.",
   "display_name": "Sandbox Unit Toolbox",
   "forum": "https://forums.uberent.com/threads/rel-sandbox-unit-toolbox.60799/",
@@ -11,10 +11,13 @@
   "priority": 100,
   "scenes": {
     "live_game": [
-      "coui://ui/mods/sandbox_unit_toolbox/server_sandbox_state.js",
-      "coui://ui/mods/sandbox_unit_toolbox/sandbox_unit_toolbox.js"
+      "coui://ui/mods/sandbox_unit_toolbox/live_game.js"
+    ],
+    "live_game_sandbox": [
+      "coui://ui/mods/sandbox_unit_toolbox/live_game_sandbox.css",
+      "coui://ui/mods/sandbox_unit_toolbox/live_game_sandbox.js"
     ]
   },
   "signature": "not yet implemented",
-  "version": "1.0.2"
+  "version": "1.1.0"
 }
